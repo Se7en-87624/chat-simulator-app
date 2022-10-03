@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Base */
+html {
+  @apply h-full;
+}
+body {
+  @apply font-sans overflow-hidden h-full;
+}
+@screen md {
+  @apply overflow-auto;
+}
+
+/* Transitions */
+.list-enter-active {
+  transition: all 0.25s;
+}
+.list-enter /* .list-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateY(15px);
+}
