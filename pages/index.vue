@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col bg-cool-gray-300 main-wrapper">
     <div
-      class="flex items-center justify-center px-6 py-4 text-white bg-red-600"
+      class="flex items-center justify-center px-6 py-4 text-white bg-blue-600"
     >
       <div>
         <span class="font-bold">Welcome to Chat Simulator</span>
